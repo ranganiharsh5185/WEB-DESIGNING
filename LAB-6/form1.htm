@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="./thankyou.htm">
+      <table align="center">
+        <h1 align="center">Student Registration</h1>
+        <tr>
+          <td><label for="fn">Full Name</label></td>
+          <td><input type="text" id="fn" required /></td>
+        </tr>
+        <tr>
+          <td><label for="e">Email</label></td>
+          <td><input type="email" id="e" required /></td>
+        </tr>
+        <tr>
+          <td><label for="m">Mobile No.</label></td>
+          <td><input type="tel" id="m" required maxlength="10" /></td>
+        </tr>
+        <tr>
+          <td><label for="a">Address</label></td>
+          <td>
+            <textarea name="" id="a" rows="5" cols="20" required></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="n">Nationality</label></td>
+          <td>
+            <select name="" id="n" required>
+              <option value="selected disabled">select nationality</option>
+              <option value="INDIA">INDIA</option>
+              <option value="USA">USA</option>
+              <option value="UK">UK</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="d">Date of birth</label></td>
+          <td><input type="date" id="d" required /></td>
+        </tr>
+        <tr>
+          <td><label for="g">Gender</label></td>
+          <td><input type="radio" id="g" name="h" required />Male</td>
+          <td><input type="radio" id="g" name="h" required />Female</td>
+        </tr>
+        <tr>
+          <td><label for="h">Highest Degree</label></td>
+          <td>
+            <select name="" id="h" required>
+              <option value="selected disabled">Select Degree</option>
+              <option value="">BTECH</option>
+              <option value="">MTECH</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="c">CPI</label></td>
+          <td><input type="text" id="c" /></td>
+        </tr>
+        <tr>
+          <td><label for="u">University</label></td>
+          <td><input type="text" name="" id="u" required /></td>
+        </tr>
+        <tr>
+          <td><label for="p">Passing Year</label></td>
+          <td>
+            <select name="" id="p" required>
+              <option value="selected disabled">Select Year</option>
+              <option value="">2025</option>
+              <option value="">2024</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button type="submit">Submit</button></td>
+          <td><button type="reset">Reset</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

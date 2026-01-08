@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="./thankyou.htm">
+      <table align="center">
+        <h1 align="center">COVID-19 Vaccine Registration Form</h1>
+        <tr>
+          <td><label for="f">First Name</label></td>
+          <td><input type="text" id="f" required /></td>
+        </tr>
+        <tr>
+          <td><label for="l">Last Name</label></td>
+          <td><input type="text" id="l" required /></td>
+        </tr>
+        <tr>
+          <td><label for="a">Aadhar Number</label></td>
+          <td>
+            <input type="tel" id="a" required maxlength="12" minlength="12" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="v">Vaccine Name</label></td>
+          <td>
+            <select name="" id="v" required>
+              <option value="selected disabled">select Vaccine</option>
+              <option value="INDIA">Covid-19</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="c">Vacination Center Name</label></td>
+          <td>
+            <select name="" id="c" required>
+              <option value="selected disabled">select center</option>
+              <option value="Rajkot">Rajkot</option>
+              <option value="Ahemdabad">Ahemdabad</option>
+              <option value="Surat">Surat</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="d">Date of Dose</label></td>
+          <td><input type="date" id="d" required /></td>
+        </tr>
+        <tr>
+          <td><label for="no">Dose Number</label></td>
+          <td><input type="number" id="no" required /></td>
+        </tr>
+
+        <td></td>
+        <td><button type="submit">click here</button></td>
+        <td><button type="reset">cancel</button></td>
+      </table>
+    </form>
+  </body>
+</html>
